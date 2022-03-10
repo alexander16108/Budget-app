@@ -34,7 +34,7 @@ $ bundle exec rspec spec
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/chaw-bot/every-kwacha/issues).
+Feel free to check the [issues page](https://github.com/alexander16108/Budget-app/issues).
 
 ## Show your support
 
