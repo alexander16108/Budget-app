@@ -5,12 +5,6 @@ A mobile web application where you can manage your budget: you have a list of tr
 ## Live Version
 Here is the [link]() to the live version
 
-## Screenshots
-> | Home/Categories Page | Add Category Page |
-> |![Screenshot](./images/Screenshot3.png)|![Screenshot](./images/Screenshot4.png)|!
-> | Transactions Page | Add Transaction Page |
-> |![Screenshot](./images/Screenshot5.png)|![Screenshot](./images/Screenshot6.png)|!
-
 ## Built With
 - Ruby
 - Ruby on Rails
