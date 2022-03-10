@@ -1,0 +1,30 @@
+<section class="login">
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name), data: { turbo: false }) do |f| %>
+    <div class="nav">
+      <%= link_to root_path do %>
+        <i class="fa-solid fa-arrow-left back"></i>
+      <% end %>
+      <div>
+        LOGIN
+      </div>
+      <div class="actions">
+        <%= f.submit "Log in", class: "loginBtn" %>
+      </div>
+    </div>
+  
+    <%= render partial: "devise/shared/notification"%>
+  
+    <div class="textField mt-3 md-3">
+      <div class="field">
+        <%= f.email_field :email, placeholder: "Email", autofocus: true, autocomplete: "email", class: "form-control stuff" %>
+      </div>
+
+      <div class="field">
+        <%= f.password_field :password, placeholder: "Password", autofocus: true, autocomplete: "current-password", class: "form-control stuff" %>
+      </div>
+    </div>
+  <% end %>
+
+  <%= render "devise/shared/links" %>
+
+</section>
